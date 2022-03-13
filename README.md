@@ -13,7 +13,7 @@ SEED의 구조를 이용하여 SCA를 진행하였습니다.
 **KEY_LEFT** 와 **KEY_RIGHT**를 각각 공격하기 위해 먼저, **KEY_RIGHT**를 공격합니다.
 
 
-이때, 비선형 함수인 S-BOX의 입력값과 파형을 학습시킵니다. **(Profiling 과정)**
+이때, 비선형 함수인 S-BOX의 과 파형을 학습시킵니다. **(Profiling 과정)**
 
 이를 통해 key right를 얻게 되면 S-box의 출력값을 이용해 **KEY_LEFT**또한 유사한 과정을 통해 공격해 줍니다. 
 
